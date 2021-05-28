@@ -9,14 +9,22 @@ body {
 
 header {
     background-color: #4b0082;
+    font-family: Marker Felt, fantasy;
     height: 100px;
 }
 
 header h1 a {
     color: #fffff0;
     text-decoration: none;
-    font-family: Marker Felt, fantasy;
     border-bottom: groove;
+}
+
+header nav a {
+    display: flex;
+    justify-content: flex-end;
+    color: #fffff0;
+    text-decoration: none;
+    padding-bottom: 5px;
 }
 
 main {
@@ -37,4 +45,36 @@ main {
 
 .info {
     color: #7e7e7e;
+}
+
+.formrow {
+    border-radius: 20px;
+    background-color: #c9c3e4;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.logform {
+    display: flex;
+    justify-content: center;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    border-bottom: groove #000000;
+    padding-top: 10px 0 5px 0;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.submit {
+    background-color: #4b0082;
+    color: #fffff0;
 }
