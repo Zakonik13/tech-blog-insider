@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #958ebe;
+}
+
+header {
+    background-color: #4b0082;
+    height: 100px;
+}
+
+header h1 a {
+    color: #fffff0;
+    text-decoration: none;
+    font-family: Marker Felt, fantasy;
+    border-bottom: groove;
+}
+
+main {
+    background-color: #958ebe;
+    padding-top: 20px;
+    font-family: Georgia, serif;
+}
+
+.post-list {
+    background-color: #fffff0;
+    border-radius: 10px;
+}
+
+.title a {
+    color: #4b0082;
+    text-decoration: none;
+}
+
+.info {
+    color: #7e7e7e;
+}
