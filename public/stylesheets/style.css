@@ -27,6 +27,20 @@ header nav a {
     padding-bottom: 5px;
 }
 
+.btn-no-style {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #fffff0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-no-style:hover {
+    color: #225ca3;
+}
+
 main {
     background-color: #958ebe;
     padding-top: 20px;
@@ -34,8 +48,7 @@ main {
 }
 
 .post-list {
-    background-color: #fffff0;
-    border-radius: 10px;
+    padding-left: 20%;
 }
 
 .title a {
@@ -77,4 +90,16 @@ main {
 .submit {
     background-color: #4b0082;
     color: #fffff0;
+}
+
+.post {
+    margin: 20px;
+    background-color: #c9c3e4;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+}
+
+.comment-form {
+    background-color: rgba(210, 105, 30, 0);
 }
