@@ -101,5 +101,27 @@ main {
 }
 
 .comment-form {
-    background-color: rgba(210, 105, 30, 0);
+    margin-left: 5%;
+    width: 20%;
+}
+
+.textarea,
+.comment-form button {
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.btngroup {
+    display: flex;
+    justify-content: center;
+}
+
+.comments {
+    background-color: #c9c3e4;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-left: 1%;
+    width: 30%;
 }
