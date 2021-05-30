@@ -129,9 +129,13 @@ main {
     width: 30%;
 }
 
-h2 {
+h3 {
     margin-left: 5%;
     width: 20%;
+}
+
+.h3 {
+    padding-top: 20px;
 }
 
 .new-post {
@@ -154,6 +158,26 @@ h2 {
 
 .new-post-btn button {
     padding: 5px;
+    border-radius: 5px;
+}
+
+/* Edit post */
+.edit-post-form {
+    margin-left: 5%;
+    width: 30%;
+}
+
+.edit-post-form input {
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.edit-post-form button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comment-form textarea {
     border-radius: 5px;
 }
 
