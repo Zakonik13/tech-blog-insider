@@ -13,15 +13,16 @@
     <div  class="container-fluid">
         <header class="row">
             <div class="col align-self-start"></div>
-            <h1 class="col align-self-center">
+            <h1 class="col-auto middle">
                 <a href="/">Tech-Blog-Insider</a>
             </h1>
             <nav class="col align-self-end">
                 <div class="row">
                     {{#if loggedIn}}
+                    <a href="/dashboard">Dashboard</a>
                     <button id="logout" class="btn-no-style">Logout</button>
                     {{else}}
-                    <a href="/login">Login</a>
+                    <a href="/login">Login/Signup</a>
                     {{/if}}
                 </div>
             </nav>

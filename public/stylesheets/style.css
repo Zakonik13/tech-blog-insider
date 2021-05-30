@@ -11,12 +11,14 @@ header {
     background-color: #4b0082;
     font-family: Marker Felt, fantasy;
     height: 100px;
+    text-shadow: 2px 2px #000000;
 }
 
 header h1 a {
     color: #fffff0;
     text-decoration: none;
-    border-bottom: groove;
+    border-bottom: inherit;
+    text-shadow: 3px 3px #000000;
 }
 
 header nav a {
@@ -31,6 +33,7 @@ header nav a {
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
+    text-shadow: 2px 2px #000000;
     color: #fffff0;
     border: none;
     background: none;
@@ -124,4 +127,39 @@ main {
     margin-left: 5%;
     padding-left: 1%;
     width: 30%;
+}
+
+h2 {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.new-post {
+    /* background-color: crimson; */
+    margin-left: 5%;
+    width: 20%;
+}
+
+.textbox {
+    margin: 10px;
+}
+
+.new-post input {
+    border-radius: 5px;
+}
+
+.new-post-btn {
+    margin-left: 30%;
+}
+
+.new-post-btn button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 424px) {
+    .middle {
+        column-width: 1000px;
+        padding-left: 25%;
+    }
 }
